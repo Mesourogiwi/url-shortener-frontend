@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
         </Link>
         <Link href="/reports" className="inline-flex">
           <button className="inline-flex max-w-md w-full mx-auto justify-center items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-500 hover:bg-blue-600 hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
-            Ver realtórios
+            Ver relatórios
           </button>
         </Link>
       </div>
