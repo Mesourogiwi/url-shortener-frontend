@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-interface UrlData {
+export interface UrlData {
   id: string;
   url: string;
   shortUrl: string;
