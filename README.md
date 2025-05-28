@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Descrição
+Esse é um projeto de um desafio técnico e é o frontend para um encurtador de links. Nele é possível gerar um novo link encurtado, listar os links gerados e também ver relatórios dos links.
 
-## Getting Started
+## Setup do projeto
 
-First, run the development server:
+Certifique-se de estar rodando o backend e rode o comando para instalar as dependências
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) para ver o frontend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## O projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Página inicial com a possibilidade de encurtar o link:
 
-## Learn More
+![image](https://github.com/user-attachments/assets/1da19167-d3a4-4354-8f34-f7211747c024)
 
-To learn more about Next.js, take a look at the following resources:
+Ao gerar, é possível clicar no botão para copiar o link para área de transferência
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/a59d5d4e-db2e-4206-aebc-2eba7f2b6a56)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Clicando no botão é possível ver a tabela mostrando os links gerados e seus respectivos acessos
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/4c47d4a6-4c59-4bb4-8fae-b025ecd9a782)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Também é possível ver a dashboard de relatórios:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/cfa32165-2cb2-4c64-ace8-1d0df99a57ef)
+
