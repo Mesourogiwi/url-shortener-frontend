@@ -96,7 +96,7 @@ const ShortenerForm: React.FC<ShortenerFormProps> = ({ onUrlShortened }) => {
           <p className="text-green-800 text-sm font-semibold mb-2">
             Seu link encurtado:
           </p>
-          <div className="flex gap-2 align-middle justify-center">
+          <div className="flex gap-2 align-middle justify-center flex flex-col">
             <a
               href={shortenedUrl}
               target="_blank"
@@ -107,7 +107,7 @@ const ShortenerForm: React.FC<ShortenerFormProps> = ({ onUrlShortened }) => {
             </a>
             <button
               onClick={handleCopy}
-              className="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              className="items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-gray-600 hover:bg-gray-700 hover:cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
             >
               Copiar
             </button>
