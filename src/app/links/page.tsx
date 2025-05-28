@@ -1,4 +1,3 @@
-import LinksReport from "../../components/organisms/LinksReport";
 import UrlTable from "../../components/organisms/UrlTable";
 
 const LinksPage: React.FC = () => {
@@ -8,7 +7,6 @@ const LinksPage: React.FC = () => {
         Links gerados
       </h1>
       <UrlTable />
-      <LinksReport />
     </div>
   );
 };
