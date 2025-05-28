@@ -1,9 +1,11 @@
 import Link from "next/link";
+import { Toaster } from "sonner";
 import ShortenerForm from "../components/organisms/ShortenerForm";
 
 const HomePage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-col">
+      <Toaster richColors position="top-center" />
       <h1 className="text-4xl font-extrabold text-gray-900 mb-10 text-center">
         Encurtador de URL
       </h1>

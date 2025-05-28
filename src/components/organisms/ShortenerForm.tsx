@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { toast } from "sonner";
 
 interface ShortenerFormProps {
   onUrlShortened?: (shortUrl: string) => void;
@@ -52,8 +53,8 @@ const ShortenerForm: React.FC<ShortenerFormProps> = ({ onUrlShortened }) => {
 
   const handleCopy = () => {
     if (shortenedUrl) {
+      toast.success("Link copiado para a área de transferência!");
       navigator.clipboard.writeText(shortenedUrl);
-      alert("Link copiado para a área de transferência!");
     }
   };
 
